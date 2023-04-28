@@ -1,0 +1,32 @@
+.leaderboard {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .leaderboard h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .leaderboard li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .leaderboard li:last-child {
+    border-bottom: none;
+  }
+  
+  .leaderboard li .ido-name {
+    font-weight: bold;
+  }
+  
+  .leaderboard li .vote-count {
+    font-size: 1.2rem;
+  }
+  
